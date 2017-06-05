@@ -1,0 +1,111 @@
+#topo{
+background-color:#006699;
+width:900px;
+height:80px;
+}
+
+#menu{
+background-color:#333333;
+width:900px;
+height:20px;
+}
+
+#meio{
+background-color:#999999;
+width:900px;
+height:400px;
+}
+
+#base{
+background-color:#006699;
+width:900px;
+height:50px;
+}
+
+.botoesMenu{
+background-color:#333333;
+font:Verdana, Arial, Helvetica, sans-serif;
+color:#CCCCCC;
+border-left:none;
+border-top:none;
+border-bottom:none;
+border-right-color:#FFFFFF;
+}
+
+a:hover .botoesMenu {
+background-color:#000000;
+color:#0099CC;
+}
+
+h1 {
+color:#FFFFFF;
+font:Verdana, Arial, Helvetica, sans-serif 8px;
+}
+
+.quadroJogadas tr td{
+background:#9F9F9F;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:10px;
+width:100%;
+}
+
+.opcoes th {
+background:#666666;
+color:#FFFFFF;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:13px;
+}
+.opcoes {
+background-color:#888888;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:11px;
+}
+
+
+.vitoria {
+font: Verdana, Arial, Helvetica, sans-serif;
+font-size:17px;
+color:#0066CC;
+width:25%;
+}
+
+.derrota {
+font: Verdana, Arial, Helvetica, sans-serif;
+font-size:17px;
+color:#CC0000;
+width:25%;
+}
+
+.empate {
+font: Verdana, Arial, Helvetica, sans-serif;
+font-size:17px;
+color:#000000;
+width:25%;
+}
+
+.matriz {
+width:10%;
+color:#000000;
+border:0px;
+}
+
+.tempo {
+color:#CCCCCC;
+background-color:#333333;
+}
+
+select {
+background-color:#666666;
+color:#000000;
+border:thin;
+}
+
+body {
+background-image:url(tic.jpg);
+}
+
+h5 {
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:15px;
+color:#000000;
+}

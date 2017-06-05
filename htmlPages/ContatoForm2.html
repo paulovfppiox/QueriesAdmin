@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<link rel="stylesheet" type="text/css" href="cadastroStyle.css">
+<head>
+    <title> -- Formulário Contato -- </title>
+    <meta charset="utf-8" />
+    <!--   <link href="ContatoEstilo.css" rel="stylesheet" media="all" />
+    <script src="JavaScript1.js"></script>-->
+</head>
+
+<body>
+
+	  <div style="overflow-x:auto;">  <!-- Tag para tornar responsivo-->
+    <form name="meu_form" action="/action_page.php">
+
+        <h1 class=""> Cadastro de consultas SQL </h1>	
+        <progress> </progress>
+        <table id="tabela" border="1">        
+        <tr>   
+            <td class="labels"> Módulo do Sistema Detran-PB: </td>
+            <td class="modulo">
+                <select name="cars">
+                <option value="VEI"> Veículos </option>
+                <option value="MUL"> Multas </option>
+                <option value="HAB"> Habilitação </option>
+                <option value="PRO"> Processos </option>
+                </select>
+                <p class="botao">
+                    <button type="button" onclick="alert('Hello World!')">Click Me!</button>
+                </p>
+            </td>
+        </tr>
+
+        <tr>   
+            <td class="labels"> <label for="nome">Nome: </label> </td>
+            <td> <input type="text" id="nomeid" placeholder="Tiago Vale" required="required" name="nome" /> </td>
+        </tr>
+	  	
+        <tr>
+            <td class="labels"> <label for="fone">Fone: </label> </td>
+            <td> <input type="text" id="foneid" placeholder="(xx)xx-xx-xx-xx" name="fone" /> </td>
+        </tr>    
+
+        <tr>
+            <td class="labels"> <label for="email">Email: </label> </td>
+            <td> <input type="email" id="emailid" placeholder="fulano@mail.com" name="email" /> </td>
+        </tr>            
+        
+        <tr>
+            <td> <label for="email">Consulta: </label> </td>
+            <td> <textarea placeholder="Deixe sua opnião"></textarea> </td>
+        </tr>            
+        
+        <tr>
+        	<td> <script type="text/javascript" src="JavaScript1.js"></script> </td> 
+            <td> <input class="submit" type="submit" onclick="Enviar();" value="Enviar" /> </td> 
+        </tr>
+
+    </form>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,59 @@
+#topo{
+background-color:#011119;
+width:900px;
+height:80px;
+}
+
+#menu{
+background-color:#334433;
+width:900px;
+height:20px;
+}
+
+#meio{
+background-color:#99FF99;
+width:500px;
+height:400px;
+}
+
+#base{
+background-color:#011119;
+width:900px;
+height:50px;
+}
+
+.botoesMenu{
+background-color:#333333;
+font:Verdana, Arial, Helvetica, sans-serif;
+color:#CCCEEC;
+border-left:none;
+border-top:none;
+border-bottom:none;
+border-right-color:#AAAAAA;
+}
+
+a:hover .botoesMenu {
+background-color:#000000;
+color:#1199CC;
+}
+
+h1 {
+color:#FFFFFF;
+font:Verdana, Arial, Helvetica, sans-serif 8px;
+}
+
+select {
+background-color:#666666;
+color:#000000;
+border:thin;
+}
+
+body {
+background-image:url(tic2.jpg);
+}
+
+h5 {
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:15px;
+color:#000000;
+}

@@ -1,0 +1,101 @@
+/* 0C5673 - Azul
+26AFE5 - Azul CLARO
+BAC1C4 - Cinza claro
+98A2A6 - Cinza ESCURO*/
+
+div {
+    /* border: 1px solid #000000;*/
+}
+body {
+  margin: 80px; /* Margem à esquerda */
+  background-color: #5B6364;
+}
+
+.sidebar {
+  grid-area: sidebar;
+  margin: 0.2em;
+}
+.content {
+  grid-area: content;
+  position: relative;
+  width: 46em;
+  margin: 0.2em;
+}
+
+.header {
+  grid-area: header;
+  width: 55em;
+  margin: 0.2em;
+}
+
+.footer {
+  grid-area: footer;
+  width: 55em;
+  margin: 0.2em;
+}
+
+.wrapper {
+        display: grid;
+        grid-gap: 0.5em; /* Gap entre todos elementos */
+        grid-template-columns: 200px 200px 200px;
+        grid-template-areas:
+        "header  header  header"
+        "sidebar content content"
+        "footer  footer  footer";
+        background-color: #5B6364;
+        /* color: #FFF000;*/
+        width: 90em;
+ }
+
+
+.box {
+  border-radius: 0.5em;
+  padding: 50px;
+  font-size: 150%;
+  background-color: #98A2A6;
+}
+
+.header, .footer                  {
+    background-color: #0C5673;
+}
+
+.sidebar {
+  padding: 10px;
+}
+
+/* As propriedades top, bottom, left e rigth só funcionam quando definimos o tipo de posição, que são as seguiintes:
+-- Estática: padrão do html
+-- Absoluta:
+-- Relativa: posicionado com relação à posição normal do elemento.
+-- Fixa: posicionado com relação à viewport (quadro ou tela de visão, o tamanho inteiro da tela). Assim ela fica fixa em scrolls de rolagem
+*/
+/*.autor   {
+  position:fixed;
+  bottom: 50px;
+  left: 100px;
+}*/
+.topleft {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50px;
+}
+
+.topright {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50px;
+}
+
+.bottomleft {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.bottomright {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
